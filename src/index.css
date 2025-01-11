@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.container h1{
+  color: #00b894;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr  ;
+
+  place-items: center
+  
+}
+
+.imcVals{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+
+.container img{
+  width: 40%;
+  padding:0 5%;
+}
+
+form h2{
+  color: #00b894;
+  padding: 10px 0 20px;
+  text-align: center;
+}
+
+form h3{
+  font-style: italic;
+  padding-bottom: 5px;
+}
+.imcCal{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding:10px 15px;
+  margin: 0 auto;
+}
+
+.imcCal input{
+  padding: 15px;
+  margin: 15px 0;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.538);
+  text-align: center;
+}
+
+
+.button-25{
+  
+  background-color: #00b894;
+  background-image: linear-gradient(#37ADB2, #329CA0);
+  border: 1px solid #2A8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-family: -apple-system,".SFNSDisplay-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  line-height: 100%;
+  margin: 0;
+  margin-bottom: 20px;
+  outline: 0;
+  padding: 11px 15px 12px;
+  text-align: center;
+  transition: box-shadow .05s ease-in-out,opacity .05s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%; 
+}
+
+.button-25:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+  text-decoration: none;
+  transition-duration: .15s, .15s;
+}
+
+.button-25:active {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+}
+
+.button-25:disabled {
+  cursor: not-allowed;
+  opacity: .6;
+}
+
+
+footer{
+  padding-top: 10px;
+  margin: 0 auto;
+  
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  
+  background-color: var(--cor-principal); 
+  color: black;
+  
+}
+
+footer a{
+  color:#00b894;
+
+}
+
+
+
