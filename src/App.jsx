@@ -33,12 +33,12 @@ const [peso, setPeso] = useState('')
                     </footer>
                     </div>               
                     <div className="imcVals">
-                        <img src="/src/assets/imagens/IMC-val-18.5.png" alt="" />
-                        <img src="/src/assets/imagens/IMC-val-18.6.png" alt="" />
-                        <img src="/src/assets/imagens/IMC-val-25.png" alt="" />
-                        <img src="/src/assets/imagens/IMC-val-30.png" alt="" />
-                        <img src="/src/assets/imagens/IMC-val-35.png" alt="" />
-                        <img src="/src/assets/imagens/IMC-val-40.png" alt="" />
+                        <img src="/imagens/IMC-val-18.5.png" alt="" />
+                        <img src="/imagens/IMC-val-18.6.png" alt="" />
+                        <img src="/imagens/IMC-val-25.png" alt="" />
+                        <img src="/imagens/IMC-val-30.png" alt="" />
+                        <img src="/imagens/IMC-val-35.png" alt="" />
+                        <img src="/imagens/IMC-val-40.png" alt="" />
                     </div>
                 </form>
                 
